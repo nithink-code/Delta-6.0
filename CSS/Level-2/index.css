@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color:#b92b27;
+    font-family:Le Monde Courrie ;
+}
+.follow{
+    color: blue;
+}
+.upvote{
+    background-color: green;
+}
+/* Descendent Selector */
+p a{
+    background-color: rgb(110, 129, 84);
+}
+ /* Sibling Selector */
+p + h3{
+    text-decoration: black underline;
+}
+ /* Child Combinator */
+div > input{
+    background-color: rgb(170, 173, 164);
+}
+/* Attribute Selector */
+button[id="login"]{
+    background-color: rgb(53, 53, 126);
+    color: white;
+}
+button[id="signup"]{
+    background-color: rgb(53, 53, 126);
+    color: white;
+}

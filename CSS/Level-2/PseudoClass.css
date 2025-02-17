@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(23, 19, 19);
+}
+div h2{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(233, 226, 226);
+    font-size: large;
+    border: solid rgb(124, 11, 11) 2px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color:rgb(23, 19, 19);
+    transition: box-shadow 0.3s ease;
+}
+input,label{
+    color: rgb(152, 104, 104);
+}
+
+button{
+    background-color: rgb(47, 112, 90);
+}
+/* Pseudo Class */
+p:hover{
+ box-shadow: 0 0 15px rgba(201, 35, 35, 0.5); /* Red glow */
+  background-image: linear-gradient(to right, #095f06, #302929); /* Light red gradient on hover */
+}
+/* Descendent Selector */
+div h2:active{
+    font-weight: bold;
+    color:greenyellow;
+}
+A
+div input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+    
+}
+.one:nth-of-type(2){
+   background-color: rgb(150, 3, 3);
+}
+/* Pseudo Elements */
+
+h2::first-letter{
+    color:blue;
+}
+h2::first-line{
+    color:blue;
+}
+h2::selection{
+    color:antiquewhite;
+}

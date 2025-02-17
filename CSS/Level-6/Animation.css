@@ -1,0 +1,44 @@
+#one{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(154, 61, 61);
+    /* animation-name: widthAnimate;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; */
+    animation: widthAnimate 10s ease-in 0s infinite normal;
+}
+/* @keyframes fontAnimate{
+    from{font-size: 20px;}
+    to{font-size: 60px;}
+} */
+ /* @keyframes widthAnimate{
+    from{width: 80px;
+    background-color: green;}
+    to{width: 400px;
+    background-color: blue;
+border-radius: 50%;
+text-align: center;}
+ } */
+
+  /* In terms of % in Animation */
+
+  @keyframes widthAnimate{
+    0%{
+        font-size: 20px;
+        background-color: green;
+    }
+    50%{
+        font-size: 40px;
+        text-align: center;
+        background-color: yellow;
+    }
+    100%{
+        font-size: 60px;
+        text-align: center;
+        background-color: blue;
+        border-radius: 50%;
+    }
+  }

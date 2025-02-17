@@ -1,0 +1,34 @@
+#one{
+    background-color: aquamarine;
+    width:200px;
+    height: 50px;
+    margin: 5px;
+    /* transform: rotate(5deg); */
+    /* transform: scaleX(0.5); */
+    transform: translate(200px);
+    transform: skew(-20deg);
+}
+#two{
+    background-color: lime;
+    width:200px;
+    height: 50px;
+    margin: 5px;
+    transform: translate(150px);
+    transform: skew(-20deg);
+}
+#three{
+    background-color: rebeccapurple;
+    width:200px;
+    height: 50px;
+    margin: 5px;
+    transform: translate(100px);
+    transform: skew(-20deg);
+}
+#four{
+    background-color: brown;
+    width:200px;
+    height: 50px;
+    margin: 5px;
+    transform: translate(50px);
+    transform: skew(-20deg);
+}

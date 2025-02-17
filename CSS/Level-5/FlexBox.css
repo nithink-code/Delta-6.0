@@ -1,0 +1,58 @@
+#rainbow{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(36, 34, 34);
+    border: 2px solid rgb(127, 6, 6);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* wrap-reverse will align it along cross-axis not along main axis */
+    flex-wrap: nowrap;
+    /* align-items to align along cross axis */
+    /* align-items: flex-end; */
+    /* align-items:baseline; */
+    /* align-content: flex-start; */
+    /* align-content:baseline ; */
+}
+#color{
+    width: 150px;
+    height: 100px;
+    background-color: #70369d;
+    /* To align an item along cross axis */
+    /* align-self: flex-end; */
+    /* Flex-basis will set size of main axis */
+    flex-basis: 50px;
+}
+#color1{
+    width: 150px;
+    height: 100px;
+    background-color: #4b369d;
+    flex-grow: 2;
+}
+#color2{
+    width: 150px;
+    height: 100px;
+    background-color: #487de7;
+    flex-shrink: 4;
+}
+#color3{
+    width: 150px;
+    height: 100px;
+    background-color: #79c314;
+}
+#color4{
+    width: 150px;
+    height: 100px;
+    background-color: #faeb36;
+}
+#color5{
+    width: 150px;
+    height: 100px;
+    background-color: #ffa500;
+}
+#color6{
+    width: 150px;
+    height: 100px;
+    background-color: #e81416;
+}

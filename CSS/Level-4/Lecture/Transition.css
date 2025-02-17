@@ -1,0 +1,16 @@
+#one{
+    background-color: rgba(57, 183, 57,0.7);
+    width: 100px;
+    height: 100px;
+    /* To align div at center of website */
+    /* margin: 0 auto; */
+    margin-top: 5px;
+    padding: 150px;
+    /* transition:property transition style delay time */
+    transition: margin-top 1s ease-in-out 0.1s;
+    
+}
+#one:hover{
+    margin-top: 200px;
+    background-color: rgb(166, 19, 19);
+}
