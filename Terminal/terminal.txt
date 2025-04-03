@@ -1,0 +1,16 @@
+// To create Files
+
+touch Name of File [Only in case of Mac]
+New-Item -ItemType File -Name "index.html" [Incase of Windows]
+
+// To create a new Folder
+ mkdir Name Of Folder
+
+ // To delete files permanently through commands in Terminal
+ rm Name of File
+
+ // To remove empty Folder
+ rmdir Name of Folder
+
+ // To delete Folder
+ rm -rf
