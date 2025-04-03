@@ -1,0 +1,2 @@
+Git is a Version Control System [means it tracks changes in the code].
+Github is a website where we will store our files as repositories.
