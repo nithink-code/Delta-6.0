@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All User Details</title>
+</head>
+<style>
+    table tr td{
+        border: 2px solid black;
+    }
+    table tr th{
+        border: 2px solid black;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <% for(result of result) { %>  
+           <tr>
+            <td><%=result.id%></td>
+            <td><%=result.username%></td>
+            <td><%=result.email%></td>
+            <td><%=result.password%></td>
+            <td>
+            <form method="GET" action="/users/<%= result.id%>/edit">
+                <button>Edit</button>
+            </form>
+            </td>
+            <td>
+              <form method="get" action="/users/<%= result.id%>/delete">
+                <button>Delete</button>
+              </form>
+            </td>
+
+           </tr>
+         <% } %>
+          <td>
+            <a href="http://localhost:8080/users/create">New Post</a>
+          </td>
+     
+    </table>
+</body>
+</html>
