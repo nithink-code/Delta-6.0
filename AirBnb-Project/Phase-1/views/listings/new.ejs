@@ -1,0 +1,42 @@
+<% layout("./layouts/boilerplate")-%>
+<body>
+    <div class="row">
+        <div class="col-8 offset-2">
+    <br>
+    <h3>New Post</h3>
+    <form method="post" action="/list">
+        <!--To simple the post req code we use list[parmaeter-name ] in name of input below-->
+        <div>
+        <label for="title" class="form-label">Title</label>
+        <input type="text" name="listing[title]" placeholder="Enter your Title: " class="form-control">
+        </div><br>
+        <div>
+        <label for="description" class="form-label">Description</label>
+        <input type="text" name="listing[description]" placeholder="Enter your Description: " class="form-control">
+        </div><br>
+        <div>
+        <label for="image" class="form-label">Image</label>
+        <input type="text" name="listing[image]" placeholder="Enter your Image URL: " class="form-control">
+        </div><br>
+        <div class="row">
+         <div class="col-md-4">
+        <label for="price" class="form-label">Price</label>
+        <input type="number" name="listing[price]" placeholder="Enter your Price: " class="form-control">
+        </div><br>
+        <div class="col-md-6">
+        <label for="country" class="form-label">Country</label>
+        <input type="text" name="listing[country]" placeholder="Enter your Country: " class="form-control">
+        </div><br>
+         </div>
+          <div>
+        <label for="location" class="form-label">Location</label>
+        <input type="text" name="listing[location]" placeholder="Enter your Location: " class="form-control">
+        </div><br>
+         <div class="btn-edit">
+            <button class="btn new-btn">Add</button>
+         </div> 
+         <br>
+    </form>
+    </div>
+    </div>
+</body>

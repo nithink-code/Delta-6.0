@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex:1;
+}
+.navbar-brand{
+    height: 4rem;
+}
+.fa-airbnb{
+    color: #FF5A5F;
+    font-size:2rem;
+}
+.container-fluid .navbar-brand{
+    font-size: 2rem;
+    color: #FF5A5F;
+}
+#navbarNav .navbar-nav .nav-link{
+    font-size: 1.2rem;
+    color: #222222 !important;
+}
+.navbar{
+    background-color: white;
+}
+.f-info .fsocials{
+    margin: 5px;
+}
+.f-info{
+    background-color: rgb(236, 234, 234);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+.fsocials{
+    font-size: 1.3rem;
+    width: 100%;
+}
+.fsocials i{
+    margin-right: 1rem;
+}
+.f-info .f-infolinks a{
+    text-decoration: none;
+}
+.f-info .f-infolinks a:hover{
+    text-decoration: underline;
+}
+.f-infolinks{
+    width: 100%;
+}
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-body{
+    width: 100%;
+    padding: 0 !important;
+    object-fit: cover !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+}
+h2{
+    text-align: center;
+}
+.card .listing-link{
+    text-decoration: none;
+    color: black;
+}
+.card .listing-link:hover{
+    text-decoration: underline;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+h3{
+    text-align: center;
+}
+.btn-edit{
+    text-align: center;
+}
+.new-btn{
+    background-color: #FF5A5F !important;
+}

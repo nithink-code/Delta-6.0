@@ -1,0 +1,41 @@
+<% layout("./layouts/boilerplate")-%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Edit your Post</h2>
+    <div class="row">
+        <div class="col-8 offset-2 mt-3">
+    <form method="post" action="/list/<%=lists1._id%>?_method=PUT">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" name="listing[title]" value="<%=lists1.title%>" class="form-control"><br></div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <input type="text" name="listing[description]" value="<%=lists1.description%>" class="form-control"><br></div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input type="text" name="listing[image]" value="<%=lists1.image.url%>" class="form-control"><br></div>
+        <div class="row">
+        <div class="mb-3 col-md-4">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" name="listing[price]" value="<%=lists1.price%>" class="form-control"><br></div>
+        <div class="mb-3 col-md-8">
+            <label for="country" class="form-label">Country</label>
+            <input type="text" name="listing[country]" value="<%=lists1.country%>" class="form-control"><br></div>
+        </div>
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" name="listing[location]" value="<%=lists1.location%>" class="form-control"></div>
+            <div class="btn-edit mt-3">
+            <button class="btn new-btn mt-3">Edit</button>
+            </div>
+    </form>
+    </div>
+     </div>
+</body>
+</html>
