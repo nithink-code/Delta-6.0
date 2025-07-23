@@ -1,0 +1,30 @@
+.card{
+    width: 350px;
+    height: 460px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    
+
+}
+img{
+    width: 350px;
+    height: 180px;
+    border-radius: 30px;
+}
+span{
+    color: rgb(180, 65, 65);
+}
+h2{
+    color: rgb(180, 125, 6);
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:780px){
+  #pets{
+    flex-wrap: wrap;
+  }
+}

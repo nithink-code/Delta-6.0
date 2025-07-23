@@ -1,0 +1,27 @@
+ # To create a database
+
+ CREATE DATABASE name
+
+ # To delete a database
+
+ DROP DATABASE name
+
+ # To create Tables
+
+ 1. USE name
+
+ 2. CREATE TABLE name(
+    Column_name1 datatype constraints,
+ );
+
+ # To insert values in Tables
+
+INSERT INTO [name]
+(id,name,age)
+VALUES
+(101,Nithin,19),
+(102,Rahul,20);
+
+# To check the data from the Tables
+
+SELECT * FROM name;

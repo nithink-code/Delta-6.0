@@ -1,0 +1,12 @@
+.rainbow div{
+    width: 100px;
+    height: 100px;
+    /* flex grow|shrink|flex-basis */
+    flex: 2 2 20px;
+    /* flex grow | basis */
+    /* flex: 2 100px; */
+    /* flex grow */
+    /* flex: 2; */
+    /* flex basis */
+    /* flex: 10px; */
+}

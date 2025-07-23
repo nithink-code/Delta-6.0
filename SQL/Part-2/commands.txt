@@ -1,0 +1,80 @@
+1. Where Clause to select based on conditions
+
+In this we have [Arithmetic, Logical, Bitwise , Comparison Operators].
+
+Other Clauses
+Limit,ORDER BY
+
+Aggregate Functions -> predefined Functions
+COUNT(),MAX(),MIN(),AVG()
+
+/* Implementation *\
+
+CREATE DATABASE Delta;
+USE Delta;
+CREATE TABLE user(
+ id INT,
+ age INT,
+ name VARCHAR(30),
+ followers INT,
+ following INT
+);
+
+INSERT INTO user
+(id,age,name,followers,following)
+VALUES
+(1,19,"Nithin",500,400),
+(2,20,"Rohan",250,300),
+(3,21,"Rohith",900,400);
+
+SELECT age,count(age)
+FROM user
+GROUP BY age
+Having age >=20
+ORDER BY age DESC;
+
+-- WHERE age >=18;
+-- ORDER BY followers DESC;
+-- ORDER BY followers ASC;
+-- WHERE age>=19 AND id<=3;
+-- where name IN ("Nithin");
+-- LIMIT number;
+
+
+-- Updating Table
+
+UPDATE user
+SET followers = 1000
+WHERE age = 20;
+
+SELECT * FROM user;
+
+SET SQL_SAFE_UPDATES = 0;
+
+-- DELETING TABLE
+DELETE FROM user
+WHERE age = 19;
+
+
+-- ALTER COLUMNS
+ALTER TABLE instauser
+-- ADD COLUMN city VARCHAR(25) DEFAULT "DELHI";
+
+-- DROP COLUMNS
+-- DROP COLUMN city;
+
+-- RENAME TABLE
+RENAME TO  user;
+
+-- TO RENAME COLUMN 
+ALTER TABLE user
+-- CHANGE followers subs INT DEFAULT 0;
+
+-- TO MODIFY ANY COLUMN
+MODIFY subs INT DEFAULT 5;
+
+-- TO ONLY DELETE DATA OF ANY ROW OF TABLE
+-- TRUNCATE TABLE user;
+
+
+

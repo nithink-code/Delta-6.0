@@ -1,0 +1,8 @@
+.commentform{
+    border: 1px solid grey;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 100px;
+    padding: 10px;
+}

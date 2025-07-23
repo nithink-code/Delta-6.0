@@ -1,0 +1,36 @@
+
+#one{
+    background-color: #2D336B;
+    position:static;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+#two{
+    background-color: #7886c7;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+#three{
+    background-color: #A9B5DF;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#four{
+    background-color: #A9B5DF;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+}

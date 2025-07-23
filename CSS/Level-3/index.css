@@ -1,0 +1,9 @@
+#one{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+#two{
+    background-color: red;
+    padding:1rem;
+}

@@ -1,0 +1,10 @@
+.infodiv {
+    text-align: center;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+.infobox{
+    margin-bottom: 400px;
+    height: 150px;
+    width: 400px;
+}

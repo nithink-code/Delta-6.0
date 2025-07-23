@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+}
+.one{
+    background-color: rgb(63, 63, 124);
+    position: relative;
+    z-index: 2;
+}
+.two{
+    background-color: rgb(76, 43, 43);
+    position: relative;
+    z-index: 1;
+    bottom: 20px;
+}

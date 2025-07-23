@@ -1,0 +1,20 @@
+h2{
+    color:#25D366;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+}
+div{
+    background-color: #25D366;
+    border:2px solid black;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3px;
+    margin: 5px;
+}
+div:hover{
+    background-color: #9cb4a5;
+}
+div form button{
+    margin-left: 15px;
+}
